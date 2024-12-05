@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.carousel-caption .btn-danger {
+    background-color: #EC0000;
+    border-color: #EC0000;
+}
+
+.carousel-caption .btn-danger:hover {
+    background-color: #FF1C1C;
+    border-color: #FF1C1C;
+}
+
+.carousel-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp-btn img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Serviços Financeiros */
+.services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.services .lead {
+    font-size: 1.25rem;
+    color: #6c757d; /* Tom cinza para contraste */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Tom cinza suave */
+}
+
+.btn-danger {
+    background-color: #EC0000 !important;
+    border-color: #EC0000 !important;
+}
+
+.btn-danger:hover {
+    background-color: #FF1C1C !important;
+    border-color: #FF1C1C !important;
+}
